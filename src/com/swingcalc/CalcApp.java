@@ -43,7 +43,6 @@ public class CalcApp extends JFrame {
 
     public CalcApp() {
         super("Калькулятор");
-        //setBounds(400,100,600,450);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         add(contentPane);
         addButtonListeners();
